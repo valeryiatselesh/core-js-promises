@@ -18,7 +18,7 @@
  * 1    => promise that will be fulfilled
  */
 function getPromise(number) {
-  return new Promise(function (resolve, reject) {
+  return new Promise(function checkNum(resolve, reject) {
     if (number >= 0) {
       resolve();
     }
